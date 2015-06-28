@@ -3,7 +3,7 @@
 
 # Custom for Visual Studio
 *.cs     diff=csharp
-*.h diff=c
+
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
@@ -15,3 +15,5 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+*.h linguist-language=C
