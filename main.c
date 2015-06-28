@@ -191,7 +191,7 @@ int main(){
         wprintf(L"\n\t┃  parcial de estrutura de dados          ┃");
         wprintf(L"\n\t┃  Obrigado por usar nosso app!           ┃");
         wprintf(L"\n\t┃                                         ┃");
-  			wprintf(L"\n\t┃  Criado por Rodrigo Alves Mesquita      ┃");
+  	wprintf(L"\n\t┃  Criado por Rodrigo Alves Mesquita      ┃");
         wprintf(L"\n\t┃                                         ┃");
         wprintf(L"\n\t┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\t");
     		getch();
