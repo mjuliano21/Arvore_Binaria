@@ -185,17 +185,17 @@ int main(){
     	case 0:{
     		system("cls");
     		wprintf(L"\n\n\t\t");
-        wprintf(L"\n\t┏━━━━━━━━━━━ ÁRVORE BINÁRIA ━━━━━━━━━━━━━━┓");
-        wprintf(L"\n\t┃                                         ┃");
-        wprintf(L"\n\t┃  Programa feito para obtenção de nota   ┃");
-        wprintf(L"\n\t┃  parcial de estrutura de dados          ┃");
-        wprintf(L"\n\t┃  Obrigado por usar nosso app!           ┃");
-        wprintf(L"\n\t┃                                         ┃");
-  	wprintf(L"\n\t┃  Criado por Rodrigo Alves Mesquita      ┃");
-        wprintf(L"\n\t┃                                         ┃");
-        wprintf(L"\n\t┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\t");
+	        wprintf(L"\n\t┏━━━━━━━━━━━ ÁRVORE BINÁRIA ━━━━━━━━━━━━━━┓");
+	        wprintf(L"\n\t┃                                         ┃");
+	        wprintf(L"\n\t┃  Programa feito para obtenção de nota   ┃");
+	        wprintf(L"\n\t┃  parcial de estrutura de dados          ┃");
+	        wprintf(L"\n\t┃  Obrigado por usar nosso app!           ┃");
+	        wprintf(L"\n\t┃                                         ┃");
+	  	wprintf(L"\n\t┃  Criado por Rodrigo Alves Mesquita      ┃");
+	        wprintf(L"\n\t┃                                         ┃");
+	        wprintf(L"\n\t┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\t");
     		getch();
-	  		exit(0);
+	  	exit(0);
     		break;
     	}
     	default:{
