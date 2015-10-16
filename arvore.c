@@ -218,7 +218,7 @@ No* abb_insere (No* a, int valor){
  *  @note Leia mais em arvore.h
  *  Feito por Maicon Juliano Fritsch
 **/
-void inserir_fila(int fila[], int num, int *c, int *f){ 
+void inserir_fila(int fila[], int num){ 
 	if((*f+1) % NUM == *c && fila[*f] == 0){
 		fila[*f] = num;
 	} 
