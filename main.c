@@ -68,7 +68,7 @@ int main(){
     wprintf(L"\n\t┃  7) Eliminar um elemento da árvore            ┃");
     wprintf(L"\n\t┃  8) Adicionar um elemento na árvore           ┃");
     wprintf(L"\n\t┃  9) Limpar a árvore                           ┃");
-    wprintf(L"\n\t┃ 10) Buscar um elemento da árvore              ┃");
+    wprintf(L"\n\t┃ 10) Buscar um elemento da árvore  BFS         ┃");
     wprintf(L"\n\t┃  0) Sair                                      ┃");
     wprintf(L"\n\t┃                                               ┃");
     wprintf(L"\n\t┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
@@ -192,6 +192,7 @@ int main(){
 	        wprintf(L"\n\t┃  Obrigado por usar nosso app!           ┃");
 	        wprintf(L"\n\t┃                                         ┃");
 	  	wprintf(L"\n\t┃  Criado por Rodrigo Alves Mesquita      ┃");
+	  	wprintf(L"\n\t┃  EDITADO  MAICON JULIANO FRITDSCH       ┃");
 	        wprintf(L"\n\t┃                                         ┃");
 	        wprintf(L"\n\t┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\t");
     		getch();
