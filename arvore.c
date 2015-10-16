@@ -214,6 +214,23 @@ No* abb_insere (No* a, int valor){
   return a;
 }
 
+/** @name Insere na fila
+ *  @note Leia mais em arvore.h
+ *  Feito por Maicon Juliano Fritsch
+**/
+void inserir(int lista[], int num, int *c, int *f){ 
+	if((*f+1) % NUM == *c && lista[*f] == 0){
+		lista[*f] = num;
+	} 
+	//F e C NÃO são iguais e a casa está vazia (0) //preencho e aumento Felse 
+	if((*f+1) % NUM != *c && lista[*f] == 0){
+		lista[*f] = num;*f = (*f+1) % NUM;
+		
+	} 
+	if((*f+1) % NUM != *c && lista[*f] != 0){
+		*f = (*f+1) % NUM;lista[*f] = num;
+	} 
+
 /** @name Remove Nó da Árvore
  *  @note Leia mais em arvore.h
 **/
