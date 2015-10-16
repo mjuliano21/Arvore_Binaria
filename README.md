@@ -18,4 +18,4 @@ Escreva um programa que contenha as seguintes FUNCÕES:
   e) Escreva uma função que realiza um percurso em largura na árvore. 
   	 Você pode usar uma fila auxiliar.
 ````````
-O Progama foi feito em **linguagem C** na IDE Code::Blocks
+O Progama foi feito em **linguagem C**
